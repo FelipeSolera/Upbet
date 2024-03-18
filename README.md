@@ -1,10 +1,10 @@
 # Upbet
 
-##Descrição do Projeto:
+## Descrição do Projeto:
 
 O projeto consistiu em desenvolver uma solução para calcular os pagamentos de afiliados com base nos dados de apostas fornecidos e aplicar as porcentagens determinadas pelas regras estabelecidas.
 
-##Abordagem:
+## Abordagem:
 
 Análise dos Dados: Iniciamos o projeto analisando os dados fornecidos, que incluíam informações sobre apostas, clientes e afiliados.
 
@@ -16,7 +16,7 @@ Processamento de Dados com Pandas: Utilizamos a biblioteca Pandas para manipular
 
 Visualização dos Resultados: Implementamos visualizações de dados para representar graficamente os pagamentos dos afiliados, proporcionando uma compreensão clara e intuitiva dos resultados.
 
-##Resultados:
+## Resultados:
 
 Ao final do projeto, obtivemos um sistema funcional capaz de calcular os pagamentos dos afiliados de acordo com as regras estabelecidas, proporcionando uma solução eficaz e automatizada para o processo.
 
