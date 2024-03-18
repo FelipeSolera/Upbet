@@ -1,4 +1,4 @@
-# Upbet
+# Projeto: Pagamento de Afiliados da Upbet
 
 ## Descrição do Projeto:
 
@@ -14,12 +14,16 @@ Cálculo dos Pagamentos: Desenvolvemos um algoritmo para calcular os pagamentos 
 
 Processamento de Dados com Pandas: Utilizamos a biblioteca Pandas para manipular e processar os dados de forma eficiente, realizando operações como agrupamento, filtragem e cálculos agregados.
 
-Visualização dos Resultados: Implementamos visualizações de dados para representar graficamente os pagamentos dos afiliados, proporcionando uma compreensão clara e intuitiva dos resultados.
+## Funcionalidades
 
-## Resultados:
+- **Calcular Pagamento**: O script lê os dados do arquivo CSV "affiliates.csv" e calcula os pagamentos com base em uma lógica específica.
+- **Aplicar Cálculo aos Dados**: O script aplica a função de cálculo a cada linha na coluna "payment" do DataFrame lido do arquivo CSV.
+- **Salvar Resultados**: O DataFrame resultante, incluindo os pagamentos calculados, é salvo em um novo arquivo CSV.
 
-Ao final do projeto, obtivemos um sistema funcional capaz de calcular os pagamentos dos afiliados de acordo com as regras estabelecidas, proporcionando uma solução eficaz e automatizada para o processo.
+## Utilização
 
-Considerações Finais:
+1. Certifique-se de ter os requisitos instalados (Python 3.x e pandas).
+2. Coloque seu arquivo CSV de pagamentos com o nome `affiliates.csv` na mesma pasta que o script `pagamento.py`.
+3. Execute o script `pagamento.py`.
+4. O script calculará os pagamentos e salvará os resultados em um arquivo CSV chamado `affiliates_calculated.csv` na mesma pasta.
 
-O projeto demonstrou a capacidade de trabalhar com dados complexos, aplicar algoritmos de processamento e análise de dados e desenvolver soluções práticas para problemas do mundo real. Além disso, destacou a importância da colaboração e da combinação de diferentes habilidades para alcançar os objetivos propostos.
